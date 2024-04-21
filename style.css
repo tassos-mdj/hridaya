@@ -1,10 +1,11 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #fcecdd;
     box-sizing: border-box;
     margin: 0;
     display: flex;
     flex-direction: column;
+    
 }
 
 .header {
@@ -14,7 +15,7 @@ body {
     padding: 20px 5%;
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -47,4 +48,33 @@ body {
     transform: translate(0, -7px) rotate(45deg);
   }
 
-  /* Hamburger button style & transition -- END*/
+/* Hamburger button style & transition -- END*/
+
+.hero { 
+  flex: 1;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.hero h2{
+   font-size: 48px;
+   color: #fcecdd;
+   position: absolute;
+   flex-basis: auto;
+     
+  }
+  
+.hero button{
+  margin-top: -5%;  
+  margin-bottom: 5%;
+  padding: 10px 20px;
+  color:#fcecdd;
+  border: solid 2px #fcecdd;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 14px;
+}
