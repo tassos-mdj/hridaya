@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #fcecdd;
     box-sizing: border-box;
     margin: 0;
@@ -58,23 +58,75 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  
 } 
 
 .hero h2{
    font-size: 48px;
    color: #fcecdd;
    position: absolute;
-   flex-basis: auto;
-     
+        
   }
   
 .hero button{
-  margin-top: -5%;  
-  margin-bottom: 5%;
   padding: 10px 20px;
   color:#fcecdd;
   border: solid 2px #fcecdd;
   background-color: transparent;
   border-radius: 10px;
   font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 30px;
+}
+
+.subhero{
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  height: 350px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   
+}
+
+.subhero img{
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  position: absolute;
+  
+}
+
+.subhero h1{
+  font-size: 36px;
+  color: rgb(114,108,95);
+  position: absolute;
+  align-content: center;
+  flex 1;
+  padding-top: 30px;
+}
+
+.subhero p{
+  font-size: 24px;
+  color: rgb(114,108,95);
+  position: absolute;
+  margin-top: 8%;
+  text-align: justify;
+  font-weight: 600;
+  padding: 20px 20% 30px 20%;
+}
+
+.bio {
+  display: flex;
+  
+}
+
+.biotext{
+  padding: 0 8% 0 8%;
 }
