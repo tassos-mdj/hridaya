@@ -67,6 +67,7 @@ body {
    font-size: 48px;
    color: #fcecdd;
    position: absolute;
+   font-weight: 100;
         
   }
   
@@ -105,10 +106,11 @@ body {
 
 .subhero h1{
   font-size: 36px;
+  font-weight: 100;
   color: rgb(114,108,95);
   position: absolute;
   align-content: center;
-  flex 1;
+  flex: 1;
   padding-top: 30px;
 }
 
@@ -124,9 +126,34 @@ body {
 
 .bio {
   display: flex;
-  
+  margin-bottom: 80px;
+}
+
+.bg-bio{
+  position: absolute;
+  left: 30px;
+  margin-top: -80px;
+  font-size: 120px;
+  font-weight: 400;
+  color: rgb(241,228,214);
+  opacity: 0.5;
 }
 
 .biotext{
-  padding: 0 8% 0 8%;
+  padding: 0 5% 0 7%;
+  flex: 1;
+  font-size: 15px;
+  margin:0;
+  
+  
+}
+
+.biopic{
+  flex:1 ;
+  
+}
+
+.services{
+  display: flex;
+  
 }
