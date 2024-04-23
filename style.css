@@ -250,17 +250,33 @@ body {
   gap: 64spx;
 }
 
-ul {
+.contactimg{
+  flex: 1;
+}
+
+.contactinfo{
+  flex: 1;
+}
+
+.contactinfo ul {
   list-style-type: none;
   margin: 0;
   padding-left: 60px;
   color: rgb(114,108,95);
+  line-height: 3.5em;
 }
 
 .contact-details li {
   color: rgb(114,108,95);
-  font-size: 32px;
-  
+  font-size: 28px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-details img {
+  margin-right: 20px;
 }
 
 
