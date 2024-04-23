@@ -84,6 +84,7 @@ body {
   font-weight: 500;
   position: absolute;
   bottom: 30px;
+  cursor: pointer;
 }
 
 .subhero{
@@ -246,16 +247,35 @@ body {
 
 .contact {
   display: flex;
-  gap: 48px;
+  gap: 64spx;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-left: 60px;
   color: rgb(114,108,95);
 }
 
-li {
+.contact-details li {
   color: rgb(114,108,95);
+  font-size: 32px;
+  
+}
+
+
+.contact-details li:nth-child(3n)::marker {  
+  content: url("/images/insta_button_20.webp") ' ';  
+}
+
+.contact-details li:nth-child(3n - 1)::marker {  
+  content: url("/images/viber_button_20.webp") ' ';  
+}  
+
+.contact-details li:nth-child(3n + 1)::marker {  
+  content: url("/images/Fb_button_20.webp") ' ';  
+}  
+
+.contact-details li:nth-child(3n - 2)::marker {  
+  content: url("/images/mail_button_20.webp") ' ';  
 }
