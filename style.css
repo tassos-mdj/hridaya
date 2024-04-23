@@ -231,3 +231,31 @@ body {
   background-image: url(./images/gallery_background.jpg);
     flex:1 1 300px;
 }
+
+.bg-contact{
+  margin-top: 40px;;
+  margin-bottom: -120px;
+  margin-right: 40px;
+  font-size: 220px;
+  font-weight: 400;
+  color: rgb(241,228,214);
+  opacity: 0.8;
+  flex:1;
+  text-align: right;
+}
+
+.contact {
+  display: flex;
+  gap: 48px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(114,108,95);
+}
+
+li {
+  color: rgb(114,108,95);
+}
