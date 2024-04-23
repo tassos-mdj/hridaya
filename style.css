@@ -210,14 +210,11 @@ body {
   color: rgb(114,108,95);
 }
 
-.subservices{
-  
-}
-
-.gallery{
+/*.gallery{
   display: flex;
   flex-flow: column;
-}
+}*/
+
 
 .bg-gallery{
   margin-left: 40px;
@@ -228,9 +225,14 @@ body {
   opacity: 0.8;
   flex:1;
 }
-.carousel {
+
+.carousel-container {
   background-image: url(./images/gallery_background.jpg);
-    flex:1 1 300px;
+  padding:50px;
+}
+
+.carousel div{
+  margin: 0 20px;
 }
 
 .bg-contact{
@@ -307,6 +309,7 @@ body {
   justify-content: center;
   gap: 32px;
   align-items: center;
+  padding: 30px 0;
 }
 
 .testimonial {
