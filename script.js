@@ -23,7 +23,7 @@ menuItems.forEach(
   function(menuItem) { 
     menuItem.addEventListener("click", toggleMenu);
   }
-
+)
   $(document).ready(function(){
     $('.carousel').slick({
       
@@ -67,4 +67,3 @@ menuItems.forEach(
   });
 
 
-)
