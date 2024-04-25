@@ -25,33 +25,46 @@ body {
     height: 50px;
 }
 
-/* Hamburger button style & transition -- START*/
+.hamburger {
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: #fcecdd;
+}
 
-.ham {
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 25px;
-    height: 3px;
-    background-color: #6b6a6a;
-    border-radius: 30%;
-    margin: 4px 0;
-    transition: 0.4s;
-  }
-  
-  .change .bar1 {
-    transform: translate(0, 7px) rotate(-45deg);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    transform: translate(0, -7px) rotate(45deg);
-  }
+.closeIcon {
+  display: none;
+}
 
-/* Hamburger button style & transition -- END*/
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #fcecdd;
+  color: rgb(114,108,95);
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.menu a{
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+
+
 
 .hero { 
   flex: 1;
