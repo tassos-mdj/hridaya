@@ -165,7 +165,7 @@ body {
 .biotext{
   padding: 0 5% 0 7%;
   flex: 1;
-  font-size: 15px;
+  font-size: 14px;
   margin:0;
   align-self: center;
   z-index: 99;
@@ -230,6 +230,7 @@ body {
   color: rgb(114,108,95);
   z-index: 90;
   opacity: 1;
+  font-size: 13px;
 }
 
 .bg-gallery{
@@ -369,7 +370,7 @@ body {
 
 #quotetxt {
   height: 100%;
-  font-size: 16px;
+  font-size: 9px;
   font-style: italic;
   padding: 0;
   text-align: center;
