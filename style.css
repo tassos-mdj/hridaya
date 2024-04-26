@@ -169,6 +169,7 @@ body {
   margin:0;
   align-self: center;
   z-index: 99;
+  text-align: justify;
   
 }
 
@@ -215,7 +216,7 @@ body {
   padding: 30px 20px;
   flex:1 0 100%;
   max-width: 250px;
-    
+  text-align: justify;
 }
 
 .service-title{
@@ -359,6 +360,8 @@ body {
 .blockquote{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  
 }
 
 .text {
@@ -376,11 +379,12 @@ body {
   text-align: center;
   text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
   color: rgb(114,108,95);
+  
 }
 
 #quoter {
   display: inline-block;
-  
+   
 }
 
 .text::before {
@@ -479,6 +483,10 @@ justify-content: center;
     padding: 5px 10px;
   }
 
+ .subhero img{
+  width: 140%;
+  margin-top: 40px;
+ }
  .subhero p{
   font-size: 14px;
   padding: 0 10%;
@@ -490,20 +498,22 @@ justify-content: center;
 
  .biopic{
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   z-index: 81;
  }
 
  .bg-bio{
   position: absolute;
-  top:950px;
-  font-size: 190px;
+  top:1060px;
+  font-size: 60px;
+  left:0;
+  margin-left: 0;
  }
 
 .bg-services, .bg-gallery, .bg-contact{
   font-size: 60px;
-  margin-left: 0
-  ;
+  margin-left: 0;
+  text-align: left;
 }
 
 .services{
@@ -517,12 +527,25 @@ justify-content: center;
   position: relative;
   gap:20px;
   flex: 1;
-  margin-bottom: 10px;
+  margin-bottom: -120px;
   margin-top: 0px;
 }
 
-.bg-gallery , .bg-contact{
+.subservices{
+  overflow: hidden;
+}
+
+.subservices img{
+  width: 300%;
+  margin-left: -100%;
+}
+
+.bg-gallery{
   margin-bottom: -60px;
+}
+
+.bg-contact{
+  margin-bottom: 0;
 }
 
 .contact {
@@ -537,6 +560,11 @@ justify-content: center;
   font-size: 14px;
   padding:0;
   margin:0;
+}
+
+.footer img {
+  width: 80px;
+  height: 100%;
 }
 
 }
