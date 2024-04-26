@@ -520,7 +520,7 @@ justify-content: center;
   flex:1;
   flex-flow: column wrap;
   justify-content: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   gap:0px;
 }
 .srv-container{
