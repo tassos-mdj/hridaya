@@ -159,7 +159,6 @@ body {
   font-size: 220px;
   font-weight: 400;
   color: rgb(241,228,214);
-  
   z-index: 80;
 }
 
@@ -466,4 +465,75 @@ justify-content: center;
 
 .footer img{
   padding: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .hero h2 , .subhero h1{
+    font-size: 22px;
+  }
+  
+  .hero button {
+    bottom:10px;
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+ .subhero p{
+  font-size: 14px;
+  padding: 0 10%;
+ }
+
+ .bio{
+  flex-flow: column-reverse wrap-reverse;
+ }
+
+ .biopic{
+  width: 100%;
+  margin-bottom: 20px;
+  z-index: 81;
+ }
+
+ .bg-bio{
+  position: absolute;
+  top:950px;
+  font-size: 190px;
+ }
+
+.bg-services, .bg-gallery, .bg-contact{
+  font-size: 80px;
+  margin-left: 0
+  ;
+}
+
+.services{
+  flex:1;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap:0px;
+}
+.srv-container{
+  position: relative;
+  gap:20px;
+  flex: 1;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.bg-gallery , .bg-contact{
+  margin-bottom: -60px;
+}
+
+.contact {
+  flex-flow: column;
+}
+
+.contactimg {
+  display: none;
+}
+
+.contact-details li {
+  font-size: 18px;
+}
+
 }

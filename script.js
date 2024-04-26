@@ -31,6 +31,9 @@ if (vw >=1440) {
   menu.style.right = "calc(50% - 720px)"
 }
 
+//**Change fonts & elements for screens < 600 */
+
+
 /** Carousel slider */
   $(document).ready(function(){
     $('.carousel').slick({
