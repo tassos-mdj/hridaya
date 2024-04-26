@@ -1,3 +1,4 @@
+/* Dropdown Menu */
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
 const hamburger= document.querySelector(".hamburger");
@@ -18,12 +19,19 @@ function toggleMenu() {
 
 hamburger.addEventListener("click", toggleMenu);
 
-
 menuItems.forEach( 
   function(menuItem) { 
     menuItem.addEventListener("click", toggleMenu);
   }
 )
+
+/** Menu positioning for viewport > 1440 */
+let vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+if (vw >=1440) {
+  menu.style.right = "calc(50% - 720px)"
+}
+
+/** Carousel slider */
   $(document).ready(function(){
     $('.carousel').slick({
       
