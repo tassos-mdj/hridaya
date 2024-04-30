@@ -42,7 +42,7 @@ body {
 
 .menu {
   position: absolute;
-  transform: translateY(-100%);
+  transform: translateY(-150%);
   transition: transform 0.2s;
   top: 0;
   bottom: 0;
