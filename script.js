@@ -1,5 +1,6 @@
 /* Dropdown Menu */
 const menu = document.querySelector(".menu");
+const bgBio = document.querySelector("#bio");
 const menuItems = document.querySelectorAll(".menuItem");
 const hamburger= document.querySelector(".hamburger");
 const closeIcon= document.querySelector(".closeIcon");
@@ -28,7 +29,8 @@ menuItems.forEach(
 /** Menu positioning for viewport > 1440 */
 let vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
 if (vw >=1440) {
-  menu.style.right = "calc(50% - 720px)"
+  menu.style.right = "calc(50% - 720px)";
+  bgBio.style.left = "calc(50% - 720px)";
 }
 
 //**Change fonts & elements for screens < 600 */

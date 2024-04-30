@@ -148,17 +148,19 @@ body {
   padding: 0 20% 0 20%;
   flex: 2;
   margin-top:0;
+  z-index: 90;
 
 }
 
 .bio {
   display: flex;
+  flex-flow: row-reverse;
   margin-bottom: 80px;
 }
 
 .bg-bio{
   position: absolute;
-  margin-left: 40px;
+  left: 40px;
   margin-top: -160px;
   font-size: 220px;
   font-weight: 400;
@@ -476,7 +478,7 @@ justify-content: center;
   padding: 20px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1023px) {
   .hero h2 , .subhero h1{
     font-size: 22px;
   }
@@ -497,21 +499,22 @@ justify-content: center;
  }
 
  .bio{
-  flex-flow: column-reverse wrap-reverse;
+  flex-flow: column wrap;
  }
 
  .biopic{
   width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   z-index: 81;
  }
 
  .bg-bio{
-  position: absolute;
-  top:1060px;
-  font-size: 60px;
-  left:0;
+  position: relative;
   margin-left: 0;
+  margin-top: 0;
+  font-size: 60px;
+  left: 0;
+  
  }
 
 .bg-services, .bg-gallery, .bg-contact{
