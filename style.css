@@ -82,6 +82,10 @@ body {
   
 } 
 
+.hero img{
+  width: 100%;
+}
+
 .hero h2{
    font-size: 48px;
    color: #fcecdd;
@@ -328,7 +332,7 @@ body {
 .testimonials {
   background-image: url(./images/testimonials_background.jpg);
   background-size: 100%;
-  margin: 150px 0;
+  margin: 150px 0 100px 0;
   flex: 1 1 316px;
   display: flex;
   flex-flow: row wrap;
@@ -562,9 +566,15 @@ justify-content: center;
   margin:0;
 }
 
-.footer img {
-  width: 80px;
+
+
+#landingbanner {
+  width: 200%;
   height: 100%;
+}
+
+.slick-dots {
+  top: 250px;
 }
 
 }
