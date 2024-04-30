@@ -566,11 +566,14 @@ justify-content: center;
   margin:0;
 }
 
-
+.hero {
+  overflow: hidden;
+}
 
 #landingbanner {
   width: 200%;
   height: 100%;
+ 
 }
 
 .slick-dots {
