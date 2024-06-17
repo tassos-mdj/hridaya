@@ -1,3 +1,73 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./fonts/OpenSans-Bold-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./fonts/OpenSans-BoldItalic-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./fonts/OpenSans-ExtraBold-webfont.woff') format('woff');
+	font-weight: bolder;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./fonts/OpenSans-ExtraBoldItalic-webfont.woff') format('woff');
+	font-weight: bolder;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./fonts/OpenSans-Italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./fonts/OpenSans-Light-webfont.woff') format('woff');
+	font-weight: lighter;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./fonts/OpenSans-LightItalic-webfont.woff') format('woff');
+	font-weight: lighter;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./fonts/OpenSans-Regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./fonts/OpenSans-Semibold-webfont.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fcecdd;
@@ -35,7 +105,7 @@ body {
 .rightMenu a {
   text-decoration: none;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: normal;
   color: rgb(114,108,95);
 }
 
@@ -103,7 +173,7 @@ body {
    font-size: 48px;
    color: #fcecdd;
    position: absolute;
-   font-weight: 100;
+   font-weight: lighter;
         
   }
   
