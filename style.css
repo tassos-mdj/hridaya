@@ -170,14 +170,28 @@ body {
 }
 
 .hero h2{
-   font-size: 48px;
-   color: #fcecdd;
-   position: absolute;
-   font-weight: lighter;
-        
+  font-size: 48px;
+  color: #fcecdd;
+  position: absolute;
+  font-weight: lighter;
+  cursor: pointer;
   }
-  
-.hero button{
+
+button {
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 10px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.btn {
   padding: 10px 20px;
   color:#fcecdd;
   border: solid 2px #fcecdd;
@@ -185,10 +199,9 @@ body {
   border-radius: 10px;
   font-size: 14px;
   font-weight: 500;
-  position: absolute;
-  bottom: 30px;
-  cursor: pointer;
+
 }
+
 
 .subhero{
   margin: 0 auto;
@@ -371,11 +384,15 @@ body {
 }
 
 .contactinfo ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1rem;
   list-style-type: none;
   margin: 0;
   padding-left: 60px;
   color: rgb(114,108,95);
-  line-height: 3.5em;
+  max-height: 250px;
 }
 
 .contact-details li {
