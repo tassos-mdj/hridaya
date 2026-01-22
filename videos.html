@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    
+  <h2>Select an item</h2>
+
+  <button onclick="goToForm(101)">Item 101</button>
+  <button onclick="goToForm(202)">Item 202</button>
+  <button onclick="goToForm(303)">Item 303</button>
+
+  <script>
+    function goToForm(id) {
+      window.location.href = `form.html?id=${id}`;
+    }
+  </script>
+</body>
+</html>
